@@ -5,17 +5,21 @@
     background-color: var(--off-white);
     border-radius: 30px 30px 0 0;
     bottom: 10%;
+    display: flex;
+    align-items: center;
 }
 
 .field-bg .container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .field-bg header {
     width: 100%;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
@@ -27,11 +31,10 @@
     align-items: center;
 }
 
-.field-bg header ul li {
+.field-bg header ul{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 30px;
 }
 
 .field-bg header ul li a {
@@ -53,7 +56,7 @@
     border-radius: 1px;
     background-color: var(--orange);
     position: absolute;
-    right: -5px;
+    left: -5px;
     top: 22px;
 }
 
@@ -139,15 +142,135 @@ h1{
     color: var(--off-white);
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
-.field-bg .container > a {
+.form-elements {
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.field-bg .form-elements > a {
     text-decoration: none;
     color: var(--orange);
     font-size: 0.8rem;
     font-weight: 400;
 }
 
-.field-bg .container > a > span {
+.field-bg .form-elements > a > span {
     color: var(--black);
+}
+
+
+@media screen and (min-height: 1180px){
+    .field-bg {
+        border-radius: 60px 60px 0 0;
+    }
+
+    .field-bg header {
+        margin-bottom: 60px;
+    }
+    
+    .field-bg header ul{
+        gap: 60px;
+    }
+    
+    .field-bg header ul li a {
+        font-size: 2rem;
+    }
+
+    .field-bg header ul li a.a-left.selected::after{
+        content: '';
+        width: 203.12px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: var(--orange);
+        position: absolute;
+        left: -10px;
+        top: 44px;
+    }
+
+    .field-bg header ul li a.a-right.selected::after{
+        content: '';
+        width: 155.18px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: var(--orange);
+        position: absolute;
+        left: -10px;
+        top: 44px;
+    }
+
+    h1{
+        font-weight: 500;
+        font-size: 5rem;
+        color: var(--black);
+    }
+
+    .login-inputs {
+        gap: 60px;
+    }
+
+    .login-inputs input {
+        font-size: 2rem;
+        padding: 30px 40px;
+    }
+
+    .password-input-wrapper {
+        gap: 30px;
+    }
+
+    .password-input-wrapper a {
+        font-size: 1.6rem;
+    }
+
+    .field-bg .container button {
+        width: 300px;
+        border-radius: 60px;
+        padding: 26px 60px;
+        font-size: 2rem;
+    }
+
+    .form-elements {
+        padding-bottom: 60px;
+        gap: 60px;
+    }
+
+    .field-bg .form-elements > a {
+        font-size: 1.6rem;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .field-bg {
+        position: static;
+        width: 50%;
+        height: 80vh;
+        border-radius: 30px 0 0 30px;
+    }
+
+    .field-bg .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .field-bg .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

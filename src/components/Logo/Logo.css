@@ -18,3 +18,55 @@
     color: var(--off-white);
     font-weight: 300;
 }
+
+@media screen and (max-width: 380px){
+    .logo h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .logo h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-height: 1180px){
+    .logo h1 {
+        font-size: 5rem;
+    }
+
+    .logo p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-height: 1366px){
+    .logo h1 {
+        font-size: 5.5rem;
+    }
+
+    .logo p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+    
+    .logo h1 {
+        font-size: 5rem;
+        color: var(--off-white);
+        font-weight: 600;
+    }
+    
+    .logo p {
+        font-size: 1.5rem;
+        color: var(--off-white);
+        font-weight: 300;
+    }
+}

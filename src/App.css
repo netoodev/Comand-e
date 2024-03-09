@@ -15,9 +15,9 @@
 }
 
 .container {
-    max-width: 84.62%;
+    max-width: 700px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-inline: 30px;
 }
 
 .body {
@@ -26,4 +26,13 @@
     margin: 0 auto;
     background-color: var(--orange);
     background: linear-gradient(180deg, #EEB346 0%, #ED9A45 41%)
+}
+
+@media screen and (min-width: 992px) {
+    .body {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
