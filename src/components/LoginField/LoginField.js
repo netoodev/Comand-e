@@ -1,4 +1,6 @@
 import './LoginField.css';
+import { NavLink } from "react-router-dom";
+
 
 const LoginField = () => {
 
@@ -26,7 +28,7 @@ const LoginField = () => {
                                 <a id="recuperarSenha" href="#">Esqueceu a senha?</a>
                             </div>
                         </div>
-                        <button type="submit" id="login">Entrar</button>
+                        <NavLink to="/mesas" className="button" type="submit" id="login">Entrar</NavLink>
                         <a href="#">Não tem uma conta? <span>Cadastre-se</span></a>
                     </div>
                 </div>

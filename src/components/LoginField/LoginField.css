@@ -10,6 +10,8 @@
 }
 
 .field-bg .container {
+    position: absolute;
+    top: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -133,7 +135,7 @@ h1{
     color: var(--orange);
 }
 
-.field-bg .container button {
+.field-bg .container .button {
     width: 150px;
     border: none;
     border-radius: 30px;
@@ -142,6 +144,7 @@ h1{
     color: var(--off-white);
     font-size: 1rem;
     font-weight: 600;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -170,6 +173,10 @@ h1{
 @media screen and (min-height: 1180px){
     .field-bg {
         border-radius: 60px 60px 0 0;
+    }
+
+    .field-bg .container {
+        position: static;
     }
 
     .field-bg header {
@@ -229,7 +236,7 @@ h1{
         font-size: 1.6rem;
     }
 
-    .field-bg .container button {
+    .field-bg .container .button {
         width: 300px;
         border-radius: 60px;
         padding: 26px 60px;
@@ -256,6 +263,7 @@ h1{
     }
 
     .field-bg .container {
+        position: static;
         width: 80%;
         display: flex;
         flex-direction: column;
@@ -267,6 +275,7 @@ h1{
 @media screen and (min-width: 1200px) {
 
     .field-bg .container {
+        position: static;
         width: 80%;
         display: flex;
         flex-direction: column;

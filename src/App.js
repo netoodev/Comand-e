@@ -1,10 +1,10 @@
 import './App.css'
-import LoginFuncionario from './pages/LoginFuncionario';
+import Router from './routes';
 
 function App() {
   return (
     <>
-      <LoginFuncionario></LoginFuncionario>
+      <Router></Router>
     </>
   );
 }
