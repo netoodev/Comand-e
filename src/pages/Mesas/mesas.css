@@ -1,0 +1,44 @@
+.mesas-container {
+    max-width: 84.58%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mesas-container .legend {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mesas-container .legend .legend-name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mesas-container .legend .legend-name > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.mesas-container .legend .legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.mesas-container .legend .disponivel {
+    background-color: var(--disponivel);
+}
+
+.mesas-container .legend .consumo {
+    background-color: var(--consumo);
+}
+
+.mesas-container .legend .pagamento {
+    background-color: var(--pagamento);
+}

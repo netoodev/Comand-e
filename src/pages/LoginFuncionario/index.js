@@ -1,5 +1,5 @@
-import Logo from "../../components/Logo/Logo";
-import LoginField from "../../components/LoginField/LoginField";
+import Logo from "../../components/Login/Logo/Logo";
+import LoginField from "../../components/Login/LoginField/LoginField";
 
 const LoginFuncionario = () => {
     return(

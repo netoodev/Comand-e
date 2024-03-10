@@ -6,6 +6,10 @@
     --light-gray: #FBF9F4; 
     --black: #312418;
     --gradient: linear-gradient(180deg, #EEB346 0%, #ED9A45 100%);
+
+    --disponivel: #B5E157;
+    --consumo: #36B4FC;
+    --pagamento: #FDB72F;
 }
 
 * {
