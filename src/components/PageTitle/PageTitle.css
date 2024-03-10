@@ -1,0 +1,34 @@
+.pagetitle-container {
+    max-width: 84.58%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagetitle-container > h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.pagetitle-container .qrcode-link {
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    text-decoration: none;
+}
+
+.pagetitle-container .qrcode-link > img {
+    width: 24px;
+    height: 24px;
+}
+
+.pagetitle-container .qrcode-link > p {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--orange);
+}

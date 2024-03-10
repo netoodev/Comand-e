@@ -18,6 +18,7 @@ const Header = () => {
                     <img src={settingsIcon}></img>
                 </NavLink>
             </div>
+            <div className='divisor'></div>
         </>
     );
 }
