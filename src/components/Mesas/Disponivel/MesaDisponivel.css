@@ -1,0 +1,17 @@
+.disponivel-card {
+    width: 150px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    background-color: var(--disponivel);
+    text-decoration: none;
+}
+
+.disponivel-card > h1 {
+    font-size: 48px;
+    color: var(--off-white);
+}

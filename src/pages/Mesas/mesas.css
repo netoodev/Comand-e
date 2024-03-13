@@ -42,3 +42,29 @@
 .mesas-container .legend .pagamento {
     background-color: var(--pagamento);
 }
+
+.mesas-cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .mesas-cards {
+        grid-template-columns: repeat(3, 150px);
+        gap: 30px 60px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mesas-cards {
+        grid-template-columns: repeat(4, 150px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mesas-cards {
+        grid-template-columns: repeat(5, 150px);
+    }
+}

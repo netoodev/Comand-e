@@ -1,0 +1,36 @@
+.pagamento-card {
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    background-color: var(--pagamento);
+    text-decoration: none;
+    color: var(--off-white);
+}
+
+.pagamento-card .mesa-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pagamento-card .mesa-info .top-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagamento-card .mesa-info .bottom-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagamento-card .mesa-info .top-info > h4, .pagamento-card .mesa-info .bottom-info > h4 {
+    font-weight: 600;
+}
