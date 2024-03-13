@@ -65,9 +65,9 @@ const Mesas = () => {
                     <MesaDisponivel 
                         table="7"
                     />
-                    <AdicionarMesa/>
                 </div>
             </div>
+            <AdicionarMesa/>
         </>
     );
 }

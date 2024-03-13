@@ -7,7 +7,7 @@ const AdicionarMesa = () => {
         <>
             <NavLink className="add-table-btn">
                 <div className='add-table-elements'>
-                    <img src={AdicionarMesaIcon}></img>
+                    <img src={AdicionarMesaIcon} alt=''></img>
                     <h3>Adicionar Mesa</h3>
                 </div>
             </NavLink>
