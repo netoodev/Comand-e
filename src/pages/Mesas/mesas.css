@@ -1,7 +1,6 @@
 .mesas-container {
     max-width: 84.58%;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-block: 20px;
     margin-inline: auto;
     display: flex;
     flex-direction: column;

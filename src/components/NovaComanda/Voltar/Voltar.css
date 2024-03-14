@@ -1,0 +1,8 @@
+.voltar-container{
+    max-width: 84.58%;
+    height: 4.74vh;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
