@@ -1,12 +1,13 @@
 import './Voltar.css';
 import SetaVoltar from '../../../assets/NovaComanda/seta-voltar.svg'
+import { NavLink } from 'react-router-dom';
 
-const Voltar = () => {
+const Voltar = (props) => {
     return(
         <>
-            <div className='voltar-container'>
+            <NavLink to={props.backTo} className='voltar-container'>
                 <img src={SetaVoltar}></img>
-            </div>
+            </NavLink>
         </>
         
     );

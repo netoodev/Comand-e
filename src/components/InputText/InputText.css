@@ -1,0 +1,48 @@
+.input-container {
+    max-width: 84.58%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.input-container > h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.input-container > input {
+    max-width: 600px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-gray);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--black);
+    padding: 15px 20px;
+}
+
+.input-container input:focus {
+    outline: 1px solid var(--orange);
+}
+
+::-webkit-input-placeholder {
+    color: #968F86;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #968F86;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #968F86;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #968F86;  
+ }
