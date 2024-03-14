@@ -1,10 +1,10 @@
-.page-title{
+.page-heading{
     max-width: 84.58%;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: last baseline;
 }
 
 .page-title > h1 {
