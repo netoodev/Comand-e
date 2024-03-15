@@ -3,11 +3,11 @@
     --yellow: #EEB346;
     --beige: #EED5B5;
     --off-white: #FFFEFC;
-    --light-gray: #FBF9F4; 
+    --light-gray: #E0E0E0;
     --black: #312418;
     --gradient: linear-gradient(180deg, #EEB346 0%, #ED9A45 100%);
 
-    --disponivel: #B5E157;
+    --disponivel: #ACCE64;
     --consumo: #36B4FC;
     --pagamento: #FDB72F;
 }

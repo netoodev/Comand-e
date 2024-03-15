@@ -34,7 +34,7 @@ const NovaComandaMesa = () => {
                     type="number"
                     placeholder="Digite a quantidade de pessoas"
                 />
-                <NavLink className="button">Próximo</NavLink>
+                <NavLink to='/criar-pedido' className="button">Próximo</NavLink>
             </form>
         </>
     );
