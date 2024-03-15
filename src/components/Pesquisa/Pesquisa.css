@@ -1,0 +1,29 @@
+.pesquisa-container{
+    max-width: 84.58%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 23.92px;
+}
+
+.pesquisa-container > input {
+    max-width: 600px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light-gray);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--black);
+    padding: 15px 55.92px;
+}

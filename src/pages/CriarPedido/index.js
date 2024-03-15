@@ -1,5 +1,6 @@
 import './pedidos.css';
 import Voltar from '../../components/NovaComanda/Voltar/Voltar';
+import Pesquisa from '../../components/Pesquisa/Pesquisa';
 
 const Pedidos = () => {
     return(
@@ -10,6 +11,8 @@ const Pedidos = () => {
                     <h1>Pedidos</h1>
                 </div>
             </div>
+            <Pesquisa/>
+            
         </>
     );
 }
