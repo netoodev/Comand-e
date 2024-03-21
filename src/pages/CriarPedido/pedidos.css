@@ -1,0 +1,40 @@
+.pedidos-container {
+    max-width: 84.58%;
+    margin-block: 20px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pedidos-container .legend {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pedidos-container .legend .legend-name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pedidos-container .legend .legend-name > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.pedidos-container .legend .legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.pedidos-container .disponivel {
+    background-color: #EEB346;
+}
+
+.pedidos-container .indisponivel {
+    background-color: #F7D8A1;
+}

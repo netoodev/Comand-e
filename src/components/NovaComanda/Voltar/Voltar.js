@@ -5,9 +5,11 @@ import { NavLink } from 'react-router-dom';
 const Voltar = (props) => {
     return(
         <>
-            <NavLink to={props.backTo} className='voltar-container'>
-                <img src={SetaVoltar}></img>
-            </NavLink>
+            <div className='voltar-container'>
+                <NavLink to={props.backTo}>
+                    <img src={SetaVoltar}></img>
+                </NavLink>
+            </div>
         </>
         
     );

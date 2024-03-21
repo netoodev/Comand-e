@@ -14,6 +14,18 @@ const Pedidos = () => {
             </div>
             <Pesquisa/>
             <ScrollPedidos/>
+            <div className='pedidos-container'>
+                <div className='legend'>
+                    <div className='legend-name'>
+                        <div className='legend-color disponivel'></div>
+                        <p>Disponível</p>
+                    </div>
+                    <div className='legend-name'>
+                        <div className='legend-color indisponivel'></div>
+                        <p>Indisponível</p>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
