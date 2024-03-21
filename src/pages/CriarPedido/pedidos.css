@@ -38,3 +38,21 @@
 .pedidos-container .indisponivel {
     background-color: #F7D8A1;
 }
+
+.pedidos-container .button {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    padding: 13px 30px;
+    background-color: var(--orange);
+    color: var(--off-white);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}

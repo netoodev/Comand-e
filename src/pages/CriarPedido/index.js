@@ -1,7 +1,9 @@
 import './pedidos.css';
 import Voltar from '../../components/NovaComanda/Voltar/Voltar';
 import Pesquisa from '../../components/Pesquisa/Pesquisa';
-import ScrollPedidos from '../../components/ScrollPedidos/ScrollPedidos';
+import ScrollPedidos from '../../components/CriarPedido/ScrollPedidos/ScrollPedidos';
+import CardOpcao from '../../components/CriarPedido/CardOpcao/CardOpcao';
+import { NavLink } from 'react-router-dom';
 
 const Pedidos = () => {
     return(
@@ -25,6 +27,8 @@ const Pedidos = () => {
                         <p>Indisponível</p>
                     </div>
                 </div>
+                <CardOpcao/>
+                <NavLink to='' className="button">Salvar</NavLink>
             </div>
         </>
     );
