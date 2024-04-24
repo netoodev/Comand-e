@@ -8,7 +8,7 @@ const PageTitle = (props) => {
         <>
             <div className='pagetitle-container'>
                 <h1>{props.title}</h1>
-                <NavLink className='qrcode-link'>
+                <NavLink to="/qr-code" className='qrcode-link'>
                     <img src={qrcodeIcon} alt='Ícone Leitor Qr code'></img>
                     <p>QR Code</p>
                 </NavLink>
